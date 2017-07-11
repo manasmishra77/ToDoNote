@@ -137,6 +137,7 @@ class NoteViewController: UIViewController, UITextViewDelegate, UITextFieldDeleg
         priorityButton.setTitle("Prio: \(priorityArray[indexPath.row]) ", for: .normal)
     }
     
+  
     func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool
     {
         if let view = touch.view

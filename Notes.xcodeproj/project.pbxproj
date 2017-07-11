@@ -121,13 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				29A7C34B1E996173001ABE13 /* AppDelegate.swift */,
-				29A7C34D1E996173001ABE13 /* ViewController.swift */,
-				29A7C3821E998118001ABE13 /* NoteViewController.swift */,
-				B65E57181F14B4A200479BF0 /* NoteData.swift */,
-				29A7C37C1E99792E001ABE13 /* NoteTableViewCell.swift */,
-				29A7C34F1E996174001ABE13 /* Main.storyboard */,
+				B65E571C1F15123E00479BF0 /* Controller */,
+				B65E571B1F15123000479BF0 /* Model */,
+				B65E571A1F15121800479BF0 /* View */,
 				29A7C3551E996174001ABE13 /* Assets.xcassets */,
-				29A7C3571E996174001ABE13 /* LaunchScreen.storyboard */,
 				29A7C35A1E996174001ABE13 /* Info.plist */,
 			);
 			path = Notes;
@@ -159,6 +156,33 @@
 				FC1B73909A8B8F20A052DB8E /* Pods_NotesUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B65E571A1F15121800479BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29A7C37C1E99792E001ABE13 /* NoteTableViewCell.swift */,
+				29A7C34F1E996174001ABE13 /* Main.storyboard */,
+				29A7C3571E996174001ABE13 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B65E571B1F15123000479BF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B65E57181F14B4A200479BF0 /* NoteData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B65E571C1F15123E00479BF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29A7C34D1E996173001ABE13 /* ViewController.swift */,
+				29A7C3821E998118001ABE13 /* NoteViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		D7CB986134422CF6BD408E84 /* Pods */ = {
